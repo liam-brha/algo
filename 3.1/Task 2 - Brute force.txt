@@ -1,0 +1,16 @@
+ALGORITHM BruteEgyptianFracs()
+BEGIN
+    INPUT numerator, denominator
+    fractions <- []
+    _denominator <- 2
+    WHILE numerator > 1:
+        IF (numerator / denominator) > (1 / _denominator):
+            fractions.append(_denominator)
+            numerator  <- (numerator * _denominator) - denominator
+            denominator <- denominator * _denominator
+        ENDIF
+        _denominator <- _denominator + 1
+    ENDWHILE
+    DISPLAY fractions
+END
+

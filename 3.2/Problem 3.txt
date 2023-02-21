@@ -1,0 +1,11 @@
+ALGORITHM reverseString(st)
+BEGIN
+    reversedString <- []
+    lenString <- length of string - 1
+    FOR n in 0 to lenString:
+        reversedString add element (lenString - n) of st
+    ENDIF
+    RETURN reversedString
+END
+
+For each char in the array, add it to a new array but in reverse.

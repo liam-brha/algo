@@ -1,0 +1,11 @@
+ALGORITHM GreedyEgyptianFracs()
+BEGIN
+    INPUT numerator, denominator
+    fractions <- []
+    WHILE numerator > 0:
+        fractions.append(ceiling(denominator / numerator))
+        numerator  <- (numerator * fractions[-1]) - denominator
+        denominator <- denominator * fractions[-1]
+    ENDWHILE
+    DISPLAY fractions
+END

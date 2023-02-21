@@ -1,0 +1,9 @@
+Question 2
+
+A priority queue allows for items in a queue to be ranked by some kind of property or routine.
+
+In a medical administration system, some cases are going to be of more importance than others but need to be processed sequentially. This is practically the definition of a priority queue.
+
+At an airport, the various runways could be considered as priority queues. Each element could be a data structure representing an Aircraft's intentions, including take off/landing status, direction, predicted time taken, emergency medical issues or emergency mechanical issues. The properties on these aircraft would rank their position in the queue.
+
+More broadly, all the runways could be presented as a priority queue with things like direction of take off causing planes further back to jump forward in the queue if element one cannot take off from the free runway.

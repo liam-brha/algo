@@ -1,0 +1,11 @@
+ALGORTHIM isPrime(n)
+BEGIN
+    FOR x in 2 to (n - 1):
+        IF (n % x) = 0:
+            RETURN False
+        ENDIF
+    ENDFOR
+    RETURN True
+END
+
+Test numbers 2 to n - 1. For every test, see if n mod x is equal to zero. If it is, it's not prime.

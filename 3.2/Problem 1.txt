@@ -1,0 +1,11 @@
+ALGORITHM sumIntegerTo(n)
+BEGIN
+    total <- 0
+    FOR x as 1 to n:
+       total <- total + x
+    ENDFOR
+    RETURN total
+END
+
+
+Iterate through every number 1 to N. In each iteration, add it to the previous iterations total.

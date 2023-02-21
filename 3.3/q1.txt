@@ -1,0 +1,15 @@
+Question 1
+
+In many systems, the number of requests for some processing to occur outstrips the available computation resources. A queue is appropriate as processing should happen in a set order, the order a program requests the processing to occur. If the processor had no queue, routines would frequently be dropped or incomplete - which in the vast majority of cases is inappropriate.
+
+is_empty: Queue -> Boolean
+
+Allows the program to run some kind of subroutine if the processor of said queue has nothing to do, improving efficiency.
+
+first: Queue -> item
+
+Allows for the processing of a queue to occur, in which is required in the vast majority of use cases
+
+length: Queue -> Integer
+
+Another example of a property that could be used to run a subroutine, such as in a processing queue an ETA for completion
