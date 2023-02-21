@@ -17,7 +17,6 @@ people = [{
     "condition": "Low"
 }]
 
-{"name": "priority"}
 
 priorityOrder = {
     "Critical": 0,
